@@ -1,0 +1,65 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-Crl__4MZ.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/login.css": {
+    "file": "assets/login-DaaNGujz.css",
+    "src": "resources/css/login.css",
+    "isEntry": true,
+    "name": "login",
+    "names": [
+      "login.css"
+    ]
+  },
+  "resources/css/views.css": {
+    "file": "assets/views-BnuIr-_q.css",
+    "src": "resources/css/views.css",
+    "isEntry": true,
+    "name": "views",
+    "names": [
+      "views.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DrshNOhE.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/catalog-management-loader.js": {
+    "file": "assets/catalog-management-loader-7r0mpOMY.js",
+    "name": "catalog-management-loader",
+    "src": "resources/js/catalog-management-loader.js",
+    "isEntry": true
+  },
+  "resources/js/messages-loader.js": {
+    "file": "assets/messages-loader-DkgPvLSU.js",
+    "name": "messages-loader",
+    "src": "resources/js/messages-loader.js",
+    "isEntry": true
+  },
+  "resources/js/notifications-loader.js": {
+    "file": "assets/notifications-loader-YwBQOkUC.js",
+    "name": "notifications-loader",
+    "src": "resources/js/notifications-loader.js",
+    "isEntry": true
+  },
+  "resources/js/profile-loader.js": {
+    "file": "assets/profile-loader-C1c0aron.js",
+    "name": "profile-loader",
+    "src": "resources/js/profile-loader.js",
+    "isEntry": true
+  },
+  "resources/js/user-management-loader.js": {
+    "file": "assets/user-management-loader-BoENbz92.js",
+    "name": "user-management-loader",
+    "src": "resources/js/user-management-loader.js",
+    "isEntry": true
+  }
+}
