@@ -199,6 +199,35 @@ UI notes:
 
 Prerequisites:
 
+## Vercel Deployment
+
+This project is ready for Vercel with serverless PHP.
+
+### Files Added
+
+- `api/index.php` routes all requests through Laravel's `public/index.php`.
+- `vercel.json` serves static assets from `public/` and routes all other requests to the PHP handler.
+
+### Vercel Project Settings
+
+Set these in the Vercel dashboard:
+
+- Build Command:
+	- `composer install --no-dev --prefer-dist --optimize-autoloader`
+	- `npm install`
+	- `npm run build`
+- Output Directory: leave empty
+
+### Required Environment Variables
+
+- `APP_KEY` (generate locally with `php artisan key:generate --show`)
+- `APP_ENV=production`
+- `APP_DEBUG=false`
+- `APP_URL` (your Vercel URL)
+- `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
+
+Add any mail or Cloudinary variables you use in `.env` as well.
+
 - PHP 8.2+
 - Composer
 - Node.js and npm
